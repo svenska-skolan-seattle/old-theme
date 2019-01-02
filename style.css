@@ -1766,3 +1766,103 @@ DIV[id^="GMPmap"] IMG
 }
 
 
+
+/* Tablets */
+@media (min-width: 500px) and (max-width: 959px) {
+	
+}
+
+/* Phone */
+@media (max-width: 499px) {
+	body {
+		min-width: 0;
+		padding-bottom: 0;
+	}
+	
+	main {
+		width: 100%;
+		margin: 0;
+		border: none;
+		border-radius: 0;
+		padding: 0;
+		position: relative;
+	}
+	
+	.header {
+		height: 100px;
+		background-position: top left;
+	}
+	
+	.headerobject {
+		display: none;
+	}
+	
+	.nav {
+		min-height: 0;
+	}
+	
+	ul.hmenu {
+		float: none;
+		padding: 0;
+		margin: 0;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+	
+	.hmenu > li {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	
+	.hmenu > li > a {
+		margin: 0;
+		border-radius: 0;
+	}
+	
+	.hmenu ul {
+		position: static;
+		visibility: visible;
+	}
+	
+	.hmenu ul a {
+		padding-left: 16px !important;
+	}
+	
+	#mobile-nav-toggle {
+		display: inline-block;
+		position: absolute;
+		right: 10px;
+		top: 72px;
+		z-index: -1;
+	}
+	
+	#mobile-nav-toggle:checked + .hmenu {
+		max-height: 1000px;
+	}
+	
+	label[for="mobile-nav-toggle"] {
+		position: absolute;
+		top: 60px;
+		right: 0;
+		display: inline-block;
+		padding: 4px;
+		background: #FEF390;
+		border: 1px solid #0D2554;
+		border-radius: 2px;
+		margin: 4px;
+	}
+	
+	label[for="mobile-nav-toggle"] span {
+		display: block;
+		height: 4px;
+		width: 20px;
+		background: #0D2554;
+		margin: 2px 0;
+	}
+	
+	div.layout-cell.sidebar1 {
+		display: none;
+	}
+}
