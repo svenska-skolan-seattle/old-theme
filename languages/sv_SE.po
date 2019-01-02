@@ -1,0 +1,1052 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: svenska skolan_17 v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-08-13 17:46+0000\n"
+"Last-Translator: admin <carolina.stureborg@canvasolutions.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: archive.php:50
+#@ twentyten
+msgid "Blog Archives"
+msgstr ""
+
+#: legacy-comments.php:6
+#@ twentyten
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Denna post är lösenordskyddad. Ange ditt lösenord för att läsa kommentarer."
+
+#: legacy-comments.php:10
+#@ twentyten
+msgid "No Responses"
+msgstr "Inga svar"
+
+#: legacy-comments.php:10
+#@ twentyten
+msgid "One Response"
+msgstr "Ett svar."
+
+#: legacy-comments.php:10
+#@ twentyten
+msgid "% Responses"
+msgstr "% Svar"
+
+#: legacy-comments.php:10
+#, php-format
+#@ twentyten
+msgid "to &#8220;%s&#8221;"
+msgstr ""
+
+#: comments.php:22
+#: legacy-comments.php:33
+#@ twentyten
+msgid "Comments are closed."
+msgstr "Går inte att kommentera."
+
+#: comments.php:43
+#: legacy-comments.php:39
+#@ twentyten
+msgid "Leave a Reply"
+msgstr "Lämna en kommentar"
+
+#: comments.php:46
+#: legacy-comments.php:41
+#, php-format
+#@ twentyten
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du måste vara <a href=\"%s\">inloggad </a> för att kommentera en post."
+
+#: legacy-comments.php:45
+#, php-format
+#@ twentyten
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Inloggad som <a href=\"%1$s\">%2$s</a>."
+
+#: legacy-comments.php:46
+#@ twentyten
+msgid "Log out of this account"
+msgstr "Logga ut från detta konto."
+
+#: legacy-comments.php:46
+#@ twentyten
+msgid "Log out &raquo;"
+msgstr "Logga ut &raquo;"
+
+#: comments.php:53
+#: legacy-comments.php:49
+#@ twentyten
+msgid "Name"
+msgstr "Namn"
+
+#: comments.php:53
+#: comments.php:55
+#: legacy-comments.php:49
+#: legacy-comments.php:51
+#@ twentyten
+msgid "(required)"
+msgstr "(obligatorisk)"
+
+#: legacy-comments.php:51
+#@ twentyten
+msgid "Mail (will not be published)"
+msgstr "Email (kommer inte att publiceras) "
+
+#: comments.php:57
+#: legacy-comments.php:53
+#@ twentyten
+msgid "Website"
+msgstr ""
+
+#: library/options.php:13
+#: library/options.php:292
+#, php-format
+#@ twentyten
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr ""
+
+#: comments.php:63
+#: legacy-comments.php:58
+#@ twentyten
+msgid "Submit Comment"
+msgstr "Skicka kommentar"
+
+#: library/sidebars.php:6
+#@ twentyten
+msgid "Primary Widget Area"
+msgstr "Primärt område för tillägg"
+
+#: library/sidebars.php:8
+#@ twentyten
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr ""
+
+#: library/sidebars.php:12
+#@ twentyten
+msgid "Secondary Widget Area"
+msgstr "Sekundärt område för tillägg"
+
+#: library/sidebars.php:14
+#@ twentyten
+msgid "This sidebar is active only on a 3 column setup."
+msgstr ""
+
+#: library/sidebars.php:20
+#: library/sidebars.php:26
+#@ twentyten
+msgid "This sidebar is displayed above the main content."
+msgstr ""
+
+#: library/sidebars.php:33
+#: library/sidebars.php:39
+#@ twentyten
+msgid "This sidebar is displayed below the main content."
+msgstr ""
+
+#: library/sidebars.php:44
+#@ twentyten
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: library/sidebars.php:46
+#@ twentyten
+msgid "The first footer widget area. You can add a text widget for custom footer text."
+msgstr ""
+
+#: library/sidebars.php:50
+#@ twentyten
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: library/sidebars.php:52
+#@ twentyten
+msgid "The second footer widget area."
+msgstr ""
+
+#: library/sidebars.php:56
+#@ twentyten
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: library/sidebars.php:58
+#@ twentyten
+msgid "The third footer widget area."
+msgstr ""
+
+#: library/sidebars.php:62
+#@ twentyten
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: library/sidebars.php:64
+#@ twentyten
+msgid "The fourth footer widget area."
+msgstr ""
+
+#: searchform.php:7
+#@ twentyten
+msgid "Search"
+msgstr "Sök"
+
+#: library/options.php:23
+#@ twentyten
+msgid "Categories"
+msgstr ""
+
+#: library/widgets.php:108
+#@ twentyten
+msgid "Use this widget to add one of your custom menus as a widget."
+msgstr ""
+
+#: library/widgets.php:109
+#@ twentyten
+msgid "Vertical Menu"
+msgstr ""
+
+#: library/widgets.php:145
+#@ twentyten
+msgid "Title:"
+msgstr ""
+
+#: library/widgets.php:167
+#, php-format
+#@ twentyten
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: library/widgets.php:173
+#@ twentyten
+msgid "Select Menu:"
+msgstr ""
+
+#: footer.php:23
+#, php-format
+#@ twentyten
+msgid "%d queries. %s seconds."
+msgstr ""
+
+#: header.php:10
+#, php-format
+#@ twentyten
+msgid "%s RSS Feed"
+msgstr ""
+
+#: functions.php:174
+#: legacy-comments.php:24
+#@ twentyten
+msgid "Edit"
+msgstr ""
+
+#: functions.php:337
+#@ twentyten
+msgid "Not Found"
+msgstr ""
+
+#: functions.php:522
+#: legacy-comments.php:20
+#@ twentyten
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:528
+#, php-format
+#@ twentyten
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: header.php:11
+#, php-format
+#@ twentyten
+msgid "%s Atom Feed"
+msgstr ""
+
+#: legacy-comments.php:24
+#@ twentyten
+msgid "F jS, Y"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+#@ twentyten
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+#@ twentyten
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+#@ twentyten
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: comments.php:6
+#@ twentyten
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:12
+#, php-format
+#@ twentyten
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:14
+#@ twentyten
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:15
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:43
+#, php-format
+#@ twentyten
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:50
+#, php-format
+#@ twentyten
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:55
+#@ twentyten
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:59
+#, php-format
+#@ twentyten
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: content-attachment.php:5
+#, php-format
+#@ twentyten
+msgid "Return to %s"
+msgstr ""
+
+#: content-attachment.php:6
+#, php-format
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: content-attachment.php:57
+#, php-format
+#@ twentyten
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: content-attachment.php:60
+#@ twentyten
+msgid "Link to full-size image"
+msgstr ""
+
+#: content-gallery.php:14
+#, php-format
+#@ twentyten
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: content-gallery.php:15
+#, php-format
+#@ twentyten
+msgid "Permalink to %s"
+msgstr ""
+
+#: functions.php:46
+#@ twentyten
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:54
+#: library/admins.php:8
+#: library/admins.php:131
+#: library/admins.php:138
+#: library/widgets.php:88
+#@ twentyten
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:137
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicerat</span> %2$s"
+
+#: functions.php:146
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: functions.php:150
+#, php-format
+#@ twentyten
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:158
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: functions.php:163
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: functions.php:168
+#@ twentyten
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:168
+#@ twentyten
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:168
+#@ twentyten
+msgid "% Comments"
+msgstr ""
+
+#: functions.php:220
+#: functions.php:237
+#@ twentyten
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:225
+#: library/options.php:22
+#: library/options.php:213
+#@ twentyten
+msgid "Pages"
+msgstr ""
+
+#: functions.php:334
+#@ twentyten
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: functions.php:386
+#@ twentyten
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:387
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: functions.php:466
+#@ twentyten
+msgid "Previous Post"
+msgstr ""
+
+#: functions.php:466
+#@ twentyten
+msgid "Next Post"
+msgstr ""
+
+#: functions.php:519
+#, php-format
+#@ twentyten
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:528
+#: functions.php:547
+#@ twentyten
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:547
+#@ twentyten
+msgid "Pingback:"
+msgstr ""
+
+#: library/admins.php:25
+#@ twentyten
+msgid "Settings saved."
+msgstr ""
+
+#: library/admins.php:31
+#@ twentyten
+msgid "Settings restored."
+msgstr ""
+
+#: library/admins.php:71
+#@ twentyten
+msgid "Save Changes"
+msgstr ""
+
+#: library/admins.php:72
+#@ twentyten
+msgid "Reset to Default"
+msgstr ""
+
+#: library/defaults.php:41
+#@ twentyten
+msgid "Tag Cloud"
+msgstr ""
+
+#: library/defaults.php:43
+#@ twentyten
+msgid "Random posts"
+msgstr ""
+
+#: library/navigation.php:216
+#, php-format
+#@ twentyten
+msgid "View all posts in %s"
+msgstr ""
+
+#: library/options.php:7
+#: library/options.php:286
+#@ twentyten
+msgid "Footer"
+msgstr ""
+
+#: library/options.php:12
+#: library/options.php:291
+#@ twentyten
+msgid "Footer content"
+msgstr ""
+
+#: library/options.php:14
+#: library/options.php:293
+#, php-format
+#@ twentyten
+msgid "<strong>ShortTags:</strong><code>%s</code>"
+msgstr ""
+
+#: library/options.php:27
+#@ twentyten
+msgid "Block style"
+msgstr ""
+
+#: library/options.php:28
+#@ twentyten
+msgid "Post style"
+msgstr ""
+
+#: library/options.php:29
+#@ twentyten
+msgid "Simple text"
+msgstr ""
+
+#: library/options.php:35
+#@ twentyten
+msgid "Header"
+msgstr ""
+
+#: library/options.php:40
+#@ twentyten
+msgid "Show headline"
+msgstr ""
+
+#: library/options.php:41
+#: library/options.php:47
+#: library/options.php:57
+#: library/options.php:68
+#: library/options.php:75
+#: library/options.php:107
+#: library/options.php:114
+#: library/options.php:121
+#: library/options.php:128
+#: library/options.php:134
+#: library/options.php:140
+#: library/options.php:157
+#: library/options.php:203
+#: library/options.php:219
+#: library/options.php:231
+#: library/options.php:247
+#: library/options.php:334
+#: library/options.php:340
+#: library/options.php:351
+#: library/options.php:361
+#@ twentyten
+msgid "Yes"
+msgstr ""
+
+#: library/options.php:46
+#@ twentyten
+msgid "Show slogan"
+msgstr ""
+
+#: library/options.php:51
+#@ twentyten
+msgid "Navigation Menu"
+msgstr ""
+
+#: library/options.php:56
+#@ twentyten
+msgid "Show home item"
+msgstr ""
+
+#: library/options.php:62
+#@ twentyten
+msgid "Home item caption"
+msgstr ""
+
+#: library/options.php:67
+#@ twentyten
+msgid "Highlight active categories"
+msgstr ""
+
+#: library/options.php:74
+#@ twentyten
+msgid "Trim long menu items"
+msgstr ""
+
+#: library/options.php:80
+#@ twentyten
+msgid "Limit each item to [N] characters"
+msgstr ""
+
+#: library/options.php:81
+#: library/options.php:88
+#: library/options.php:146
+#@ twentyten
+msgid "(characters)."
+msgstr ""
+
+#: library/options.php:87
+#@ twentyten
+msgid "Limit each subitem to [N] characters"
+msgstr ""
+
+#: library/options.php:94
+#@ twentyten
+msgid "Default menu source"
+msgstr ""
+
+#: library/options.php:97
+#@ twentyten
+msgid "Displayed when Appearance > Menu > Primary menu is not set"
+msgstr ""
+
+#: library/options.php:100
+#@ twentyten
+msgid "Posts"
+msgstr ""
+
+#: library/options.php:106
+#@ twentyten
+msgid "Show navigation links at the top of front posts page"
+msgstr ""
+
+#: library/options.php:113
+#@ twentyten
+msgid "Show navigation links at the top of posts page"
+msgstr ""
+
+#: library/options.php:120
+#@ twentyten
+msgid "Show navigation links at the bottom of posts page"
+msgstr ""
+
+#: library/options.php:127
+#@ twentyten
+msgid "Show top navigation links in single post view"
+msgstr ""
+
+#: library/options.php:133
+#@ twentyten
+msgid "Show bottom navigation links in single post view"
+msgstr ""
+
+#: library/options.php:139
+#@ twentyten
+msgid "Trim long navigation links in single post view"
+msgstr ""
+
+#: library/options.php:145
+#@ twentyten
+msgid "Limit each link to [N] characters"
+msgstr ""
+
+#: library/options.php:151
+#@ twentyten
+msgid "Featured Image"
+msgstr ""
+
+#: library/options.php:156
+#@ twentyten
+msgid "Use featured image as thumbnail"
+msgstr ""
+
+#: library/options.php:162
+#@ twentyten
+msgid "Use auto thumbnails"
+msgstr ""
+
+#: library/options.php:163
+#@ twentyten
+msgid "Generate post thumbnails automatically (use the first image from the post gallery)"
+msgstr ""
+
+#: library/options.php:168
+#@ twentyten
+msgid "Thumbnail width"
+msgstr ""
+
+#: library/options.php:169
+#: library/options.php:175
+#@ twentyten
+msgid "(px)"
+msgstr ""
+
+#: library/options.php:174
+#@ twentyten
+msgid "Thumbnail height"
+msgstr ""
+
+#: library/options.php:179
+#@ twentyten
+msgid "Excerpt"
+msgstr ""
+
+#: library/options.php:184
+#@ twentyten
+msgid "Use auto excerpts"
+msgstr ""
+
+#: library/options.php:185
+#@ twentyten
+msgid "Generate post excerpts automatically (When neither more-tag nor post excerpt is used)"
+msgstr ""
+
+#: library/options.php:190
+#@ twentyten
+msgid "Excerpt length"
+msgstr ""
+
+#: library/options.php:191
+#: library/options.php:197
+#@ twentyten
+msgid "(words)"
+msgstr ""
+
+#: library/options.php:196
+#@ twentyten
+msgid "Excerpt balance"
+msgstr ""
+
+#: library/options.php:202
+#@ twentyten
+msgid "Apply excerpt tag filter"
+msgstr ""
+
+#: library/options.php:208
+#@ twentyten
+msgid "Allowed excerpt tags"
+msgstr ""
+
+#: library/options.php:209
+#@ twentyten
+msgid "Used when \"Apply excerpt tag filter\" is enabled"
+msgstr ""
+
+#: library/options.php:218
+#@ twentyten
+msgid "Show random posts on 404 page"
+msgstr ""
+
+#: library/options.php:224
+#@ twentyten
+msgid "Title for random posts"
+msgstr ""
+
+#: library/options.php:226
+#@ twentyten
+msgid "Used when \"Show random posts on 404 page\" is enabled"
+msgstr ""
+
+#: library/options.php:230
+#@ twentyten
+msgid "Show tags on 404 page"
+msgstr ""
+
+#: library/options.php:236
+#@ twentyten
+msgid "Title for tags"
+msgstr ""
+
+#: library/options.php:238
+#@ twentyten
+msgid "Used when \"Show tags on 404 page\" is enabled"
+msgstr ""
+
+#: library/options.php:241
+#: library/widgets.php:211
+#@ twentyten
+msgid "Comments"
+msgstr ""
+
+#: library/options.php:246
+#@ twentyten
+msgid "Use smilies in comments"
+msgstr ""
+
+#: library/options.php:251
+#@ twentyten
+msgid "Sidebars"
+msgstr ""
+
+#: library/options.php:253
+#@ twentyten
+msgid "Default widgets style"
+msgstr ""
+
+#: library/options.php:257
+#@ twentyten
+msgid "Primary sidebar"
+msgstr ""
+
+#: library/options.php:263
+#@ twentyten
+msgid "Secondary sidebar"
+msgstr ""
+
+#: library/options.php:269
+#@ twentyten
+msgid "Top sidebars"
+msgstr ""
+
+#: library/options.php:275
+#@ twentyten
+msgid "Bottom sidebars"
+msgstr ""
+
+#: library/options.php:281
+#@ twentyten
+msgid "Footer sidebars"
+msgstr ""
+
+#: library/options.php:297
+#@ twentyten
+msgid "Advertisement"
+msgstr ""
+
+#: library/options.php:299
+#, php-format
+#@ twentyten
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr ""
+
+#: library/options.php:300
+#@ twentyten
+msgid "Example:"
+msgstr ""
+
+#: library/options.php:304
+#: library/options.php:309
+#: library/options.php:314
+#: library/options.php:319
+#: library/options.php:324
+#, php-format
+#@ twentyten
+msgid "Ad code #%s:"
+msgstr ""
+
+#: library/options.php:333
+#@ twentyten
+msgid "Show in Menu"
+msgstr ""
+
+#: library/options.php:339
+#@ twentyten
+msgid "Show as Separator in Menu"
+msgstr ""
+
+#: library/options.php:345
+#@ twentyten
+msgid "Title in Menu"
+msgstr ""
+
+#: library/options.php:350
+#@ twentyten
+msgid "Show Title on Page"
+msgstr ""
+
+#: library/options.php:360
+#@ twentyten
+msgid "Show Title on Single Page"
+msgstr ""
+
+#: library/shortcodes.php:4
+#@ twentyten
+msgid "RSS Feeds"
+msgstr ""
+
+#: library/shortcodes.php:20
+#, php-format
+#@ twentyten
+msgid "Empty ad slot (#%s)!"
+msgstr ""
+
+#: library/shortcodes.php:25
+#@ twentyten
+msgid "Top"
+msgstr ""
+
+#: library/shortcodes.php:31
+#@ twentyten
+msgid "Site Admin"
+msgstr ""
+
+#: library/shortcodes.php:32
+#@ twentyten
+msgid "Log in"
+msgstr ""
+
+#: library/sidebars.php:18
+#@ twentyten
+msgid "First Top Widget Area"
+msgstr ""
+
+#: library/sidebars.php:24
+#@ twentyten
+msgid "Second Top Widget Area"
+msgstr ""
+
+#: library/sidebars.php:31
+#@ twentyten
+msgid "First Bottom Widget Area"
+msgstr ""
+
+#: library/sidebars.php:37
+#@ twentyten
+msgid "Second Bottom Widget Area"
+msgstr ""
+
+#: library/widgets.php:5
+#@ twentyten
+msgid "sidebar default"
+msgstr ""
+
+#: library/widgets.php:6
+#@ twentyten
+msgid "block"
+msgstr ""
+
+#: library/widgets.php:7
+#@ twentyten
+msgid "post"
+msgstr ""
+
+#: library/widgets.php:8
+#@ twentyten
+msgid "simple text"
+msgstr ""
+
+#: library/widgets.php:90
+#@ twentyten
+msgid "Appearance"
+msgstr ""
+
+#: library/widgets.php:149
+#@ twentyten
+msgid "Source"
+msgstr ""
+
+#: library/widgets.php:192
+#@ twentyten
+msgid "Login form"
+msgstr ""
+
+#: library/widgets.php:193
+#@ twentyten
+msgid "Login"
+msgstr ""
+
+#: library/widgets.php:208
+#@ twentyten
+msgid "Dashboard"
+msgstr ""
+
+#: library/widgets.php:210
+#@ twentyten
+msgid "Publish"
+msgstr ""
+
+#: library/widgets.php:213
+#@ twentyten
+msgid "Log out"
+msgstr ""
+
+#: library/widgets.php:216
+#: library/widgets.php:225
+#@ twentyten
+msgid "Log In"
+msgstr ""
+
+#: library/widgets.php:220
+#@ twentyten
+msgid "Username"
+msgstr ""
+
+#: library/widgets.php:221
+#@ twentyten
+msgid "Password"
+msgstr ""
+
+#: library/widgets.php:228
+#@ twentyten
+msgid "Remember Me"
+msgstr ""
+
+#: library/widgets.php:232
+#@ twentyten
+msgid "Register"
+msgstr ""
+
+#: library/widgets.php:233
+#@ twentyten
+msgid "Lost your password?"
+msgstr ""
+
+#: search.php:14
+#, php-format
+#@ twentyten
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:40
+#@ twentyten
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:41
+#@ twentyten
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
