@@ -2,7 +2,9 @@
 <div class="content-layout">
     <div class="content-layout-row">
         <div class="layout-cell sidebar1">
-          <?php get_sidebar('default'); ?>
+			<?php 
+				get_sidebar('default'); 
+			?>
         </div>
         <div class="layout-cell content">
 			<?php get_sidebar('top'); ?>
@@ -22,13 +24,11 @@
 					
 					/* Display navigation to next/previous pages when applicable */
 					if (theme_get_option('theme_bottom_posts_navigation')) {
-						 theme_page_navigation();
+						theme_page_navigation();
 					}
 				
 				} else {
-				
-					 theme_404_content();
-					 
+					theme_404_content();
 				} 
 		    ?>
 			<?php get_sidebar('bottom'); ?>
