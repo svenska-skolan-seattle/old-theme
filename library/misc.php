@@ -16,7 +16,7 @@ function theme_is_vmenu_widget($id){
 }
 
 function theme_trim_long_str($str, $len = 50, $sep = ' '){
-	$words = split($sep, $str);
+	$words = explode($sep, $str);
 	$wcount = count($words);
 	while( $wcount > 0 && mb_strlen(join($sep, array_slice($words, 0, $wcount))) > $len) $wcount--;
 	if ($wcount != count($words)) {
