@@ -1769,7 +1769,7 @@ DIV[id^="GMPmap"] IMG {
 /* Tablets */
 @media (min-width: 500px) and (max-width: 959px) {
   main {
-    min-width: none;
+    min-width: 0;
     width: 100%;
   }
 }
@@ -1777,7 +1777,7 @@ DIV[id^="GMPmap"] IMG {
 /* Phone */
 @media (max-width: 499px) {
 	body {
-		min-width: none;
+		min-width: 0;
 		padding-bottom: 0;
 	}
 	
