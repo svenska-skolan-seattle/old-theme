@@ -1771,18 +1771,18 @@ DIV[id^="GMPmap"] IMG {
   main {
     min-width: 0;
     width: 100%;
+    border: none;
   }
 }
 
 /* Phone */
 @media (max-width: 499px) {
 	body {
-		min-width: 0;
 		padding-bottom: 0;
 	}
 	
 	main {
-    min-width: none;
+    min-width: 0;
 		width: 100%;
 		margin: 0;
 		border: none;
