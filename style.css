@@ -392,7 +392,7 @@ label[for="mobile-nav-toggle"] {
 }
 
 .nav {
-	min-height: 35px;
+	min-height: 41px;
 	background: #FEF390;
 	background: linear-gradient(#FEF390, #FDEB44);
 }
@@ -1127,7 +1127,7 @@ h2.postheader
 {
   color: #275BC4;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 2rem;
 }
 
 h2.postheader a, 
@@ -1138,7 +1138,7 @@ h2.postheader a:hover,
 h2.postheader a.hovered
 {
   font-weight: normal;
-  font-size: 28px;
+  font-size: 2rem;
 }
 
 h2.postheader a, h2.postheader a:link
