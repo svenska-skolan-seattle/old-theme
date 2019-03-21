@@ -21,7 +21,7 @@
 			<div class="headerobject"></div>
 		</div>
 		<div class="nav">
-			<label for="mobile-nav-toggle"><span></span><span></span><span></span></label>
+			<label for="mobile-nav-toggle">Meny</label>
 			<input type="checkbox" id="mobile-nav-toggle" aria-label="Visa meny" />
 			<?php 
 				echo theme_get_menu(array(

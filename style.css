@@ -71,103 +71,103 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
 .postcontent h1
 {
    color: #275BC4;
-margin: 21px 0;    
+margin: 1.5rem 0;    
 }
 
 .blockcontent h1
 {
-margin: 21px 0; 
+margin: 1.75rem 0; 
 }
 
 .postcontent h2
 {
    color: #275BC4;
-margin: 19px 0;
-   font-size: 28px;    
+margin: 1.5rem 0;
+   font-size: 2rem;    
 }
 
 .blockcontent h2
 {
-margin: 19px 0;
-   font-size: 28px; 
+margin: 1.5rem 0;
+   font-size: 2rem; 
 }
 
 .postcontent h2 a, .postcontent h2 a:link, .postcontent h2 a:hover, .postcontent h2 a:visited, .blockcontent h2 a, .blockcontent h2 a:link, .blockcontent h2 a:hover, .blockcontent h2 a:visited 
 {
-   font-size: 28px; 
+   font-size: 2rem; 
 }
 
 .postcontent h3
 {
     color: #0D2554;
-	margin: 16px 0 10px 0;
-    font-size: 24px;
+	margin: 1rem 0;
+    font-size: 1.25rem;
 	font-weight: normal;
 }
 
 .blockcontent h3
 {
-	margin: 16px 0 10px 0;
-    font-size: 24px; 
+	margin: 1rem 0;
+    font-size: 1.25rem; 
 }
 
 .postcontent h3 a, .postcontent h3 a:link, .postcontent h3 a:hover, .postcontent h3 a:visited, .blockcontent h3 a, .blockcontent h3 a:link, .blockcontent h3 a:hover, .blockcontent h3 a:visited 
 {
-   font-size: 24px; 
+   font-size: 1.25rem; 
 }
 
 .postcontent h4
 {
 	color: #0D2554;
-	margin: 8px 0;
-    font-size: 18px;    
+	margin: 0.5rem 0;
+    font-size: 1.1rem;    
 }
 
 .blockcontent h4
 {
-	margin: 8px 0;
-    font-size: 18px; 
+	margin: 0.5rem 0;
+    font-size: 1.1rem; 
 }
 
 .postcontent h4 a, .postcontent h4 a:link, .postcontent h4 a:hover, .postcontent h4 a:visited, .blockcontent h4 a, .blockcontent h4 a:link, .blockcontent h4 a:hover, .blockcontent h4 a:visited 
 {
-   font-size: 18px; 
+   font-size: 1.1rem; 
 }
 
 .postcontent h5
 {
    	color: #275BC4;
 	margin: 4px 0;
-   	font-size: 16px;    
+   	font-size: 1rem;    
 }
 
 .blockcontent h5
 {
 	margin: 4px 0;
-   	font-size: 16px; 
+   	font-size: 1rem; 
 }
 
 .postcontent h5 a, .postcontent h5 a:link, .postcontent h5 a:hover, .postcontent h5 a:visited, .blockcontent h5 a, .blockcontent h5 a:link, .blockcontent h5 a:hover, .blockcontent h5 a:visited 
 {
-   font-size: 16px; 
+   font-size: 1rem; 
 }
 
 .postcontent h6
 {
    color: #275BC4;
 	margin: 35px 0;
-   font-size: 16px;    
+   font-size: 1rem;    
 }
 
 .blockcontent h6
 {
 margin: 35px 0;
-   font-size: 16px; 
+   font-size: 1rem; 
 }
 
 .postcontent h6 a, .postcontent h6 a:link, .postcontent h6 a:hover, .postcontent h6 a:visited, .blockcontent h6 a, .blockcontent h6 a:link, .blockcontent h6 a:hover, .blockcontent h6 a:visited 
 {
-   font-size: 16px; 
+   font-size: 1rem; 
 }
 
 .postcontent p {
@@ -201,7 +201,8 @@ html:before {
 
 body {
   font-family: Arial, Helvetica, Sans-Serif;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5;
   padding: 0 0 10px 0; 
   margin:0;
   color: #0D2554;
@@ -391,7 +392,7 @@ label[for="mobile-nav-toggle"] {
 }
 
 .nav {
-	min-height: 33px;
+	min-height: 35px;
 	background: #FEF390;
 	background: linear-gradient(#FEF390, #FDEB44);
 }
@@ -859,19 +860,19 @@ ul.vmenu ul li li li li li a:hover, ul.vmenu ul li li li li li a:hover.active
   position: relative;
   min-width: 1px;
   min-height: 1px;
-  margin: 7px;
+  margin: 1rem;
 }
 
 .block-body
 {
   position: relative;
-  padding: 7px;
+  padding: 0.5rem;
 }
 
 div.block img
 {
 /* WARNING do NOT collapse this to 'border' - inheritance! */
-    border-color: #6879F8;
+  border-color: #6879F8;
   border-style: solid;
   margin: 0;
 }
@@ -1065,13 +1066,13 @@ input, select, textarea
   position: relative;
   min-width: 1px;
   min-height: 1px;
-  margin: 7px;
+  margin: 0 2rem;
 }
 
 .post-body
 {
   position: relative;
-  padding: 10px;
+  padding: 1rem;
 }
 
 a img
@@ -1461,6 +1462,10 @@ img.wp-smiley
 {
   display: block;
   text-align: center;
+}
+
+.navigation a {
+  font-size: 14px;
 }
 
 /* Recommended by http://codex.wordpress.org/CSS */
@@ -1855,23 +1860,17 @@ DIV[id^="GMPmap"] IMG {
 	
 	label[for="mobile-nav-toggle"] {
 		position: absolute;
-		top: 60px;
-		right: 0;
+		top: 55px;
+		right: 10px;
 		display: inline-block;
-		padding: 4px;
+		padding: 0.5rem;
 		background: #FEF390;
 		border: 1px solid #0D2554;
-		border-radius: 2px;
-		margin: 4px;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: bold;
 	}
-	
-	label[for="mobile-nav-toggle"] span {
-		display: block;
-		height: 4px;
-		width: 20px;
-		background: #0D2554;
-		margin: 2px 0;
-	}
+
 	
 	div.layout-cell.sidebar1 {
 		display: none;
