@@ -1863,7 +1863,7 @@ DIV[id^="GMPmap"] IMG {
 		top: 55px;
 		right: 10px;
 		display: inline-block;
-		padding: 0.25rem;
+		padding: 0.25rem 0.5rem;
 		background: #FEF390;
 		border: 1px solid #0D2554;
     border-radius: 3px;
