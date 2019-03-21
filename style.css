@@ -1280,8 +1280,8 @@ h2.postheader a:hover,  h2.postheader a.hovered
   clear:both;
 }
 
-hr,
-.wp-block-separator {
+.postcontent hr,
+.postcontent .wp-block-separator {
   border: none;
   border-bottom: 1px solid lightgray;
   width: 40%;
