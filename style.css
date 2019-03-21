@@ -1841,10 +1841,10 @@ DIV[id^="GMPmap"] IMG {
 		position: static;
 		visibility: visible;
 	}
-	
-	.hmenu ul a {
-		padding-left: 16px !important;
-	}
+  
+  .hmenu ul a:link, .hmenu ul a:visited, .hmenu ul a:hover, .hmenu ul a:active, .nav ul.hmenu ul span, .nav ul.hmenu ul span span {
+    padding: 0.5rem;
+  }
 	
 	#mobile-nav-toggle {
 		display: inline-block;
@@ -1855,8 +1855,9 @@ DIV[id^="GMPmap"] IMG {
 	}
 	
 	#mobile-nav-toggle:checked + .hmenu {
-		max-height: 1000px;
-	}
+    max-height: 1000px;
+    box-shadow: 0 4px 18px 2px rgba(0, 0, 0, 0.2);
+  }
 	
 	label[for="mobile-nav-toggle"] {
 		position: absolute;
