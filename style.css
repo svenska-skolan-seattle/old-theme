@@ -1803,7 +1803,11 @@ DIV[id^="GMPmap"] IMG {
 		padding: 0;
 		position: relative;
 	}
-	
+  
+  .post {
+    margin: 0 0.5rem;
+  }
+
 	.header {
 		height: 100px;
 		background-position: top left;
