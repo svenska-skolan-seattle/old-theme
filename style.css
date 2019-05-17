@@ -1150,15 +1150,7 @@ h2.postheader a.visited {
 
 h2.postheader a:hover,
 h2.postheader a.hovered {
-  color: #275bc4;
-  position: relative;
-}
-
-h2.postheader a:hover::before,
-h2.postheader a.hovered::before {
-  position: absolute;
-  content: ' ';
-  bottom: 0;
+  color: #1b5ada;
 }
 
 /* end PostHeaderIcon */
@@ -1167,7 +1159,7 @@ h2.postheader a.hovered::before {
 .postmetadataheader {
   overflow: hidden;
   padding: 2px 6px;
-  background-image: linear-gradient(to right, #fdeb44 transparent);
+  background-image: linear-gradient(to right, #fdeb44, transparent);
 }
 /* end PostMetadata, PostMetadataHeader */
 
@@ -1179,10 +1171,6 @@ h2.postheader a.hovered::before {
 .postheadericons a:hover {
   font-size: 12px;
   color: #354869;
-}
-
-.postheadericons {
-  padding: 1px;
 }
 
 .postheadericons a,
