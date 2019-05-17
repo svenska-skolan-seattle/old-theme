@@ -1150,7 +1150,15 @@ h2.postheader a.visited {
 
 h2.postheader a:hover,
 h2.postheader a.hovered {
-  color: #f19122;
+  color: #275bc4;
+  position: relative;
+}
+
+h2.postheader a:hover::before,
+h2.postheader a.hovered::before {
+  position: absolute;
+  content: ' ';
+  bottom: 0;
 }
 
 /* end PostHeaderIcon */
@@ -1158,11 +1166,8 @@ h2.postheader a.hovered {
 /* begin PostMetadata, PostMetadataHeader */
 .postmetadataheader {
   overflow: hidden;
-  padding: 1px;
-  background-color: #fdeb44;
-  border-color: #ddd964;
-  border-style: solid;
-  border-width: 1px;
+  padding: 2px 6px;
+  background-image: linear-gradient(to right, #fdeb44 transparent);
 }
 /* end PostMetadata, PostMetadataHeader */
 
