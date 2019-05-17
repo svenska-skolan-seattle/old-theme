@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="<?php bloginfo( 'description' ); ?>">
 	<title><?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?></title>
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" type="text/css" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php
