@@ -1081,14 +1081,6 @@ a img {
   border: 0;
 }
 
-.article img,
-img.article,
-.block img,
-.footer img {
-  border: solid 1px #ddd964;
-  margin: 10px;
-}
-
 .metadata-icons img {
   border: none;
   vertical-align: middle;
