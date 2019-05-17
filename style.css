@@ -61,7 +61,6 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-  font-family: 'Muli';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -73,7 +72,6 @@ h6 a:hover {
 }
 
 .postcontent a {
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
@@ -81,7 +79,6 @@ h6 a:hover {
 }
 
 .postcontent a:link {
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
@@ -689,7 +686,6 @@ ul.vmenu a .r {
 
 ul.vmenu a .t,
 ul.vmenu ul a {
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -911,7 +907,6 @@ div.block img {
   position: relative;
   padding: 0;
   color: #354869;
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-size: 14px;
 }
 
@@ -922,7 +917,6 @@ div.block img {
 .blockcontent-body a:visited,
 .blockcontent-body a:hover {
   color: #354869;
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-size: 14px;
 }
 
@@ -962,7 +956,6 @@ div.block img {
 .button-wrapper input.button,
 .button-wrapper button.button {
   text-decoration: none;
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1132,7 +1125,6 @@ pre {
 /* begin PostHeaderIcon */
 h2.postheader {
   color: #275bc4;
-  font-weight: normal;
   font-size: 2rem;
 }
 
@@ -1142,7 +1134,6 @@ h2.postheader a:visited,
 h2.postheader a.visited,
 h2.postheader a:hover,
 h2.postheader a.hovered {
-  font-weight: normal;
   font-size: 2rem;
 }
 
@@ -1181,7 +1172,6 @@ h2.postheader a.hovered {
 .postheadericons a:link,
 .postheadericons a:visited,
 .postheadericons a:hover {
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-size: 12px;
   color: #354869;
 }
@@ -1218,7 +1208,6 @@ h2.postheader a.hovered {
 }
 
 .post li {
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-size: 14px;
   color: #0d2554;
   padding: 0 0 0 13px;
@@ -1255,7 +1244,6 @@ h2.postheader a.hovered {
 .postcontent blockquote a:visited,
 .postcontent blockquote a:hover {
   color: #0d2554;
-  font-family: 'Muli', Arial, Helvetica, Sans-Serif;
   font-size: 14px;
   text-align: left;
 }
