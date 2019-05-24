@@ -943,9 +943,9 @@ div.block img {
 }
 
 .blockcontent-body ul li {
-  line-height: 125%;
+  line-height: 2;
   color: #354869;
-  padding: 0 0 0 13px;
+  padding: 0;
   list-style-type: none;
   margin: 0;
 } /* end Box, BlockContent */
