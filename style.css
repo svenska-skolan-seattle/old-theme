@@ -1151,7 +1151,7 @@ h2.postheader a.hovered {
 .postmetadataheader {
   overflow: hidden;
   padding: 2px 6px;
-  background-image: linear-gradient(to right, #fdeb44, transparent);
+  background-image: linear-gradient(to right, #fdeb44, #ffffff);
 }
 /* end PostMetadata, PostMetadataHeader */
 
